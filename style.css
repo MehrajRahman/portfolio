@@ -20,12 +20,16 @@ body{
     transition: background-size .5s, color .5s;
 }
 
+
 .navbar-collapse .other-link .link-button:hover, .link-button:hover{
     background-size: 100% 100%;
     color: rgb(198, 237, 248);
 
 }
-
+.text1{
+    color: black;
+    font-weight: bolder;
+}
 
 .bodySide{
     background:linear-gradient(#011722d8,#08000fb9), url(./images/bg.jpg);
@@ -51,7 +55,7 @@ body{
 
 nav{
     background-color: #022333;
-    opacity: .8;
+    opacity: .99;
     height: 80px;
 }
 #body .black {
@@ -187,4 +191,10 @@ nav{
 .video{
     height: 100vh;
     
+}
+.background-video{
+    background-color: #fbfbfb;
+}
+.back{
+    box-shadow: 5px 5px 5px #111;
 }
